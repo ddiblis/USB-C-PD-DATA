@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "ucb-c adapter")(type "KiCad")(uri "${KIPRJMOD}/ucb-c adapter.pretty")(options "")(descr ""))
+)
