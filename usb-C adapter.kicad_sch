@@ -1161,7 +1161,7 @@
   (symbol (lib_id "usb-c:IP2721") (at 147.32 67.31 90) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 238ea9d6-a9e4-4569-a775-7a6321883506)
-    (property "Reference" "U?" (id 0) (at 160.02 66.0399 90)
+    (property "Reference" "U1" (id 0) (at 160.02 66.0399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "IP2721" (id 1) (at 160.02 68.5799 90)
@@ -1181,8 +1181,8 @@
     (pin "14" (uuid 485e8255-2f4b-4299-9027-0f89a953f971))
     (pin "15" (uuid bbc3f99f-eb24-46d8-a9a2-f8e3c7f84fe3))
     (pin "16" (uuid c7d72261-0ebe-4f68-9f32-d10669e2f272))
-    (pin "2" (uuid d5369100-886f-46ae-9fe3-0d60180f97bf))
-    (pin "2" (uuid d5369100-886f-46ae-9fe3-0d60180f97bf))
+    (pin "2" (uuid d5369100-886f-46ae-9fe3-0d60180f97c0))
+    (pin "2" (uuid d5369100-886f-46ae-9fe3-0d60180f97c0))
     (pin "3" (uuid b52d12e8-02d3-45a1-bf9b-0688b18dcdef))
     (pin "5" (uuid 276cc26d-e510-4081-bdf5-5dfe3bf3802c))
     (pin "6" (uuid 437517e0-356e-4a7c-8a9b-ccdf326c6674))
@@ -1264,7 +1264,7 @@
   (symbol (lib_id "Device:R") (at 107.95 31.75 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9b62e7e6-bf07-4ae3-bb33-5f179935ea9d)
-    (property "Reference" "R3" (id 0) (at 105.41 31.75 90))
+    (property "Reference" "R33" (id 0) (at 105.41 31.75 90))
     (property "Value" "5.1kOhm" (id 1) (at 107.95 31.75 90)
       (effects (font (size 0.85 0.85)))
     )
@@ -1382,8 +1382,8 @@
     (pin "A2" (uuid e4310fb6-b816-454a-ac99-c0a7c50cecc9))
     (pin "A3" (uuid f64bd296-04b4-40c7-b5e9-ddae48d5402f))
     (pin "A4" (uuid 90911b59-fc7d-4861-80d5-3a9fdfd2d8b8))
-    (pin "A5" (uuid 063de1cc-88b0-4900-b507-0eed718e3c2c))
-    (pin "A5" (uuid 063de1cc-88b0-4900-b507-0eed718e3c2c))
+    (pin "A5" (uuid 063de1cc-88b0-4900-b507-0eed718e3c2d))
+    (pin "A5" (uuid 063de1cc-88b0-4900-b507-0eed718e3c2d))
     (pin "A6" (uuid 20f4a529-b5a0-4817-a371-b39f21414684))
     (pin "A7" (uuid 2bb6bc8e-c6fb-4cf9-a503-091328787212))
     (pin "A8" (uuid b4e82ce3-8bf2-4c00-8841-b473812edf7b))
@@ -1454,17 +1454,17 @@
     (path "/3abbec01-5eea-475e-b3a7-b2db8649e226"
       (reference "R3") (unit 1) (value "5.1kOhm") (footprint "")
     )
-    (path "/9b62e7e6-bf07-4ae3-bb33-5f179935ea9d"
-      (reference "R3") (unit 1) (value "5.1kOhm") (footprint "")
-    )
     (path "/00c27ddd-2126-493f-a3e8-14b303ff8a20"
       (reference "R4") (unit 1) (value "15kOhm") (footprint "")
     )
     (path "/d83b4158-224e-4c75-adb7-7ca133acb161"
       (reference "R4") (unit 1) (value "15kOhm") (footprint "")
     )
+    (path "/9b62e7e6-bf07-4ae3-bb33-5f179935ea9d"
+      (reference "R33") (unit 1) (value "5.1kOhm") (footprint "")
+    )
     (path "/238ea9d6-a9e4-4569-a775-7a6321883506"
-      (reference "U?") (unit 1) (value "IP2721") (footprint "")
+      (reference "U1") (unit 1) (value "IP2721") (footprint "")
     )
     (path "/cebee702-107b-4d2c-820b-a13171e07761"
       (reference "pchannel") (unit 1) (value "MPMOS") (footprint "")
