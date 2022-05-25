@@ -1,1 +1,7 @@
- 
+﻿ Number,Description,QTY
+"R1, R2, R3, R33",5.1kOhm,4
+"R4, R5",15kOhm,2
+C1,1uF,1
+C2,10uF,1
+U1 ,IP2721,1
+LND01,,
