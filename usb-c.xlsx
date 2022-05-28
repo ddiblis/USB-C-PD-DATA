@@ -1,7 +1,10 @@
-﻿ Number,Description,QTY
-"R1, R2, R3, R33",5.1kOhm,4
-"R4, R5",15kOhm,2
-C1,1uF,1
-C2,10uF,1
-U1 ,IP2721,1
-LND01,,
+﻿ Number,Description,QTY,Link
+"R1, R2, R3, R33",5.1kOhm,4,
+"R4, R5",15kOhm,2,
+C1,1uF,1,
+C2,10uF,1,
+U1 ,IP2721,1,https://www.aliexpress.com/item/3256803284496861.html?spm=a2g0o.order_list.0.0.18751802Q4tuVb&gatewayAdapt=4itemAdapt
+LND01,,1,https://www.digikey.com/en/products/detail/microchip-technology/LND01K1-G/4902830
+USB-C F,,1,https://www.digikey.com/en/products/detail/gct/USB4105-GF-A-120/14559037
+USB-A ,,1,From ps2 board
+3.5 jack,Requires desoldering,1,https://www.amazon.com/Onyehn-Breakout-Stereo-Headphone-Arduino/dp/B07L3P93ZD/ref=dp_prsubs_1?pd_rd_i=B07L3P93ZD&psc=1
